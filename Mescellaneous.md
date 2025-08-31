@@ -1,6 +1,6 @@
 # General Information about Networking
 
-Networking in technology terms simply means a connection/communication(s) between two or more devices, which allows them to share information among each other.  
+Networking in the field of technology simply means a connection/communication(s) between two or more devices, which allows them to share information among each other.  
 We can compare this analogy to us human beings, in order for us to share information to each other firstly we need to know each other(connect) then start to communicate which makes sharing information possible.
 
 ## PAN, LAN, WAN, MAN, Internet (Explanation)
