@@ -26,3 +26,8 @@ High speed cables i.e., Optic fibre can be used to connect different building on
 - **WAN (Wide Area Network)**: This network connects multiple MANs, typically spanning over a large geographic area.  
 WANs are commonly used by companies with offices in different cities or countries. Employees can use VPNs to securely access company resources in remote locations.
 
+- **The Internet**: This is a collection of interconnected LANs and WANs. Think of a the internet as a beautiful city where anyone can go to view it, go inside shops and buy things they want, look at the buildings.  
+It just a giant network that allows end devices to connect and share resources.
+
+
+
