@@ -32,7 +32,8 @@ It just a giant public network that allows end devices to connect and share reso
 
 
 ## Network Architecture
-Every company or organisation has a network architecture/set-up that defines how data moves across its network. [Naka](https://medium.com/@nakah_/recommended-design-for-a-secure-network-architecture-15612e17ece4)'s article demonstrates how a simple network architecture would look like and how different technologies such as end devices and intermediary devices would be utilised.  
+
+Every company or organisation has a network architecture/setup that defines how data moves across its network. [Naka](https://medium.com/@nakah_/recommended-design-for-a-secure-network-architecture-15612e17ece4)'s article demonstrates how a simple network architecture would look like and how different technologies such as end devices and intermediary devices would be utilised.  
 In order for the organisation's architecture to meet user expectations, it must focus on these 4 basic characteristics:  
 - **Fault Tolerance**: Reduces the impact of a failure in a network, meaning they implement ways to limit the number of affected by the failure.
 - **Scalability**: The existing network must be able to expand quickly and accommodate/support new devices without impacting the performance of the devices that are already in the network.
@@ -43,4 +44,19 @@ In order for the organisation's architecture to meet user expectations, it must 
     - **Availability**: Ensuring resources can be accessed whenever they are needed by authorised users.
 
 
-# Adversary’s Perspective
+# Adversary’s Comments
+
+**Network Components**  
+    This section reveals the types of devices that the an orgarnisation would use to setup the network infrastructure. If the manufacturer of a specific device is known, that will be an advantage to the threat actor because they might be vulnerabilities on device that are not patched.  
+
+---
+
+**Network Architecture**  
+In this section the attacker gets an understanding of the fundamentals of a network architecture, and how a simple network architecture would look like. The attacker also understands that network architecture needs the 4 basic characteristics and if one is poorly implemented then they will leverage on it. For example:
+- **Fault tolerance**: If the company relies router to handle requests, a DDoS/DoS attack can overwhelm it and this will make the network go down.
+- **Scalability**: If the technical team is expanding the network out of ignorance this may lead to some of the devices being misconfigured. Therefore attackers always check for updates because there is a chance a misconfiguration exists.
+- **Quality of Service**: A service that the company prioritise can be attacked to reduce its quality. This may lead to upgrades being made which leads back to *Scalability attack*.
+- **Security**: If the security is not strong, bypassing the physical control would be easy, if there is no encryption, intercepted data can be altered with. 
+
+
+
