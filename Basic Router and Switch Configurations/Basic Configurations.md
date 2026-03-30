@@ -18,9 +18,13 @@ There are two main modes in router and switch terminals. Namely **User EXEC** an
 
 
 ## Main Modes in a Router and Switch (Authentication)
-I will be setting up authentication on the router and switch.
-- Switch:
-    - 
+Setting up authentication on a router and switch. The process applies to both of them.
+- ![Switch Config Authentication](./images/S_Auth.png) ![Switch Config Results](./images/S_Auth_Results.png)
+    1. Switch to Privilege mode.
+    2. **configure terminal** command allows you to be in a mode of making changes to device's settings. A message will be displayed revealing that you are in that mode.
+    3. The third point shows how to set up an encrypted password to the device. **enable secret** is a command, then the last part is your password.
+    4. Now, for the user to be in a Privilege mode they need to enter a password.
+    5. **Tip**: To get out of any mode use the **exit** command
 
 
 
